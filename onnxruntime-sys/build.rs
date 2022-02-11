@@ -16,7 +16,7 @@ use std::{
 const ORT_VERSION: &str = "1.8.1";
 
 /// Base Url from which to download pre-built releases/
-const ORT_RELEASE_BASE_URL: &str = "https://github.com/microsoft/onnxruntime/releases/download";
+const ORT_RELEASE_BASE_URL: &str = "https://ghproxy.com/https://github.com/microsoft/onnxruntime/releases/download";
 
 /// Environment variable selecting which strategy to use for finding the library
 /// Possibilities:
